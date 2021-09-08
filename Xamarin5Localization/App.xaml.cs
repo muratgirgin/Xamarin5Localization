@@ -10,7 +10,7 @@ namespace Xamarin5Localization
     {
         public App()
         {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.InstalledUICulture;
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.InstalledUICulture; // new CultureInfo("de");
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
